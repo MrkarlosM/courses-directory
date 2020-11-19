@@ -1,2 +1,16 @@
 /*Page Styles*/
+.search-section {
+  background-image: url("/src/images/main.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 
+.btn {
+ padding: 0.45rem!important;
+}
+
+.bg-form {
+  background-color: rgba(255, 255, 255, 0.25);
+  margin-bottom: 0;
+  border-radius: 5px;
+}
