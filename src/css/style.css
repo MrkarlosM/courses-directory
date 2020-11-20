@@ -1,4 +1,5 @@
 /*Page Styles*/
+
 .search-section {
   background-image: url("../images/main.jpg");
   background-repeat: no-repeat;
@@ -50,4 +51,10 @@
 
 .sub-input {
   max-width: 320px!important;
+}
+
+/*Results*/
+
+.search-result {
+  background-color: rgba(132,132,132,0.33);
 }
