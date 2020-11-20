@@ -58,3 +58,7 @@
 .search-result {
   background-color: rgba(132,132,132,0.33);
 }
+
+.card-img-top {
+  height: 320px!important;
+}

@@ -23,13 +23,13 @@
       crossorigin="anonymous"
     />
 
-    <title>Lightning Learning</title>
+    <title>Lightning Learning - Search Results</title>
   </head>
   <body>
     <nav
       class="navbar navbar-expand-lg navbar-light bg-light d-flex sticky-top"
     >
-      <a class="navbar-brand" href="#"
+      <a class="navbar-brand" href="index.html"
         ><svg
           width="1em"
           height="1em"
@@ -69,12 +69,12 @@
     </nav>
     <main>
       <!--Search Section-->
-      <div class="search-result container-fluid mt-4 py-1">
+      <div class="search-result container-fluid py-4">
         <div
           class="search-content d-flex flex-column justify-content-center py-1"
         >
           <div class="message text-center my-2">
-            Filter by topic, mode, difficulty level and duration time...
+            Filter by topic, mode, difficulty, level and duration time...
           </div>
           <div class="search-bar bg-form form-inline">
             <div class="container-fluid whole-search">
@@ -86,7 +86,7 @@
                         <div class="topic-selector d-flex justify-content-center">
                           <label for="selectTopic" class="m-2 p-0">Topic</label>
                           <select
-                            class="custom-select w-100"
+                            class="custom-select w-100 m-auto"
                             id="inlineFormCustomSelect"
                           >
                             <option selected id="selectTopic">Choose...</option>
@@ -98,9 +98,9 @@
                       </div>
                       <div class="col-md d-md-flex justify-content-center ">
                         <div class="topic-selector d-flex justify-content-center">
-                          <label for="selectTopic" class="m-2 p-0">Topic</label>
+                          <label for="selectTopic" class="m-2 p-0">Mode</label>
                           <select
-                            class="custom-select w-100"
+                            class="custom-select w-100 m-auto"
                             id="inlineFormCustomSelect"
                           >
                             <option selected id="selectTopic">Choose...</option>
@@ -112,9 +112,9 @@
                       </div>
                       <div class="col-md d-md-flex justify-content-center">
                         <div class="topic-selector d-flex justify-content-center">
-                          <label for="selectTopic" class="m-2 p-0">Topic</label>
+                          <label for="selectTopic" class="m-2 p-0">Difficulty level</label>
                           <select
-                            class="custom-select w-100"
+                            class="custom-select w-100 m-auto"
                             id="inlineFormCustomSelect"
                           >
                             <option selected id="selectTopic">Choose...</option>
@@ -126,23 +126,9 @@
                       </div>
                       <div class="col-md d-md-flex justify-content-center ">
                         <div class="topic-selector d-flex justify-content-center">
-                          <label for="selectTopic" class="m-2 p-0">Topic</label>
+                          <label for="selectTopic" class="m-2 p-0">Duration time</label>
                           <select
-                            class="custom-select w-100"
-                            id="inlineFormCustomSelect"
-                          >
-                            <option selected id="selectTopic">Choose...</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="col-md d-md-flex justify-content-center">
-                        <div class="topic-selector d-flex justify-content-center ">
-                          <label for="selectTopic" class="m-2 p-0">Topic</label>
-                          <select
-                            class="custom-select w-100"
+                            class="custom-select w-100 m-auto"
                             id="inlineFormCustomSelect"
                           >
                             <option selected id="selectTopic">Choose...</option>
@@ -155,10 +141,138 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-1 d-flex justify-content-center">
+                <div class="col-lg-1 d-flex justify-content-center pb-md-0 pb-2">
 
-                  
+                  <div class="input-group-append m-auto">
+                    <a href="./results.html"
+                      ><button
+                        class="btn btn-outline-secondary rounded-0 btn-light border-0"
+                        type="button"
+                        id="button-addon2"
+                      >
+                        <i class="fab fa-searchengin"></i></button
+                    ></a>
+                  </div>
 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="course-result fluid-container my-3">
+        <div class="result-title h3 text-center my-3">
+          Search Results Found 5 course(s)
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md m-2">
+              <div class="card w-100">
+                <img class="card-img-top" src="./src/images/basicmath.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Basic Math for Everyone</h5>
+                  <p class="card-text">Learn math the easy way with this 6 weeks introductory course</p>
+                  <div class="grading d-flex mb-3">
+                    <p class="card-text text-danger m-0">Free</p>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star-half-alt text-warning m-1"></i>
+                    <i class="far fa-star text-warning m-1"></i>
+                    <i class="far fa-star text-warning m-1"></i>
+                  </div>
+                  <a href="#" class="btn btn-primary">Go to the course</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md m-2">
+              <div class="card w-100" >
+                <img class="card-img-top" src="./src/images/drawing.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Drawing for beginners</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="grading d-flex mb-3">
+                    <p class="card-text text-danger m-0">Free</p>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star-half-alt text-warning m-1"></i>
+                    <i class="far fa-star text-warning m-1"></i>
+                    <i class="far fa-star text-warning m-1"></i>
+                  </div>
+                  <a href="#" class="btn btn-primary">Go to the course</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md m-2">
+              <div class="card w-100">
+                <img class="card-img-top" src="./src/images/firstaid.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="grading d-flex mb-3">
+                    <p class="card-text text-danger m-0">Free</p>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="far fa-star text-warning m-1"></i>
+                  </div>
+                  <a href="#" class="btn btn-primary">Go to the course</a>
+                </div>
+              </div>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md m-2">
+              <div class="card w-100">
+                <img class="card-img-top" src="./src/images/graphicdesign.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="grading d-flex mb-3">
+                    <p class="card-text text-danger m-0">Free</p>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                  </div>
+                  <a href="#" class="btn btn-primary">Go to the course</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md m-2">
+              <div class="card w-100">
+                <img class="card-img-top" src="./src/images/guitar.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="grading d-flex mb-3">
+                    <p class="card-text text-danger m-0">Free</p>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star-half-alt text-warning m-1"></i>
+                  </div>
+                  <a href="#" class="btn btn-primary">Go to the course</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md m-2">
+              <div class="card w-100">
+                <img class="card-img-top" src="./src/images/webdev.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <div class="grading d-flex mb-3">
+                    <p class="card-text text-danger m-0">Free</p>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="fas fa-star text-warning m-1"></i>
+                    <i class="far fa-star text-warning m-1"></i>
+                    <i class="far fa-star text-warning m-1"></i>
+                  </div>
+                  <a href="#" class="btn btn-primary">Go to the course</a>
                 </div>
               </div>
             </div>
