@@ -1,6 +1,6 @@
 /*Page Styles*/
 .search-section {
-  background-image: url("/src/images/main.jpg");
+  background-image: url("../images/main.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -33,4 +33,21 @@
 
 .section1, .section2, .section3 {
   min-height: 250px;
+}
+
+.pic-round {
+    border-radius: 200px;
+}
+
+.top-footer-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.suscribe-icon {
+  font-size: 18px;
+}
+
+.sub-input {
+  max-width: 320px!important;
 }
