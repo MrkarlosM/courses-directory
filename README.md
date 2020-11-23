@@ -38,7 +38,7 @@ This project contains three pages for an Online Course Directory.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MrkarlosM/newsweek-clone/issues).
+Feel free to check the [issues page](https://github.com/MrkarlosM/courses-directory/issues).
 
 ## Show your support
 
