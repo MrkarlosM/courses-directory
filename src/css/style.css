@@ -1,4 +1,12 @@
 /*Page Styles*/
+body {
+  max-width: 1440px;
+  margin: auto auto!important;
+}
+
+.navbar-brand, a.nav-link.active {
+  font-family: 'Poppins', sans-serif!important;
+}
 
 .search-section {
   background-image: url("../images/main.jpg");
@@ -61,4 +69,20 @@
 
 .card-img-top {
   height: 320px!important;
+}
+
+.card {
+  height: 100%!important;
+}
+
+
+/*Course main*/
+
+.instructor-image {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+  clear: right;
 }
