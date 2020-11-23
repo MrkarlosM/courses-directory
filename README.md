@@ -26,7 +26,7 @@ This project contains three pages for an Online Course Directory.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/MrkarlosM/newsweek-clone/main/index.html)
+[Live Demo Link](https://raw.githack.com/MrkarlosM/courses-directory/feature-branch/index.html)
 
 👤 **Carlos Martinez**
 
