@@ -10,6 +10,7 @@ This project contains three pages for an Online Course Directory.
 1. Index page: Showing the main features of the sites.
 2. Search results page: Showing several Online Courses after being searched.
 3. Course page: The course page with the description of the course and other features.
+4. All of them working responsively.
 
 ## Built with
 - [HTML5](https://html.spec.whatwg.org/): For layout.
@@ -20,7 +21,7 @@ This project contains three pages for an Online Course Directory.
 
 ![screenshot](./src/images/a.png)
 
-## Presentation of site
+## Presentation of the site
 
 [Video Presentation](https://www.loom.com/share/fbf1bb0bb7ba45a49a09ad50f3c3dd31)
 
