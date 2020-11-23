@@ -12,9 +12,10 @@ a.nav-link.active {
 .search-section {
   background-image: url("../images/main.jpg");
   background-repeat: no-repeat;
+
   /* background-size: 100% 100%; */
-  background-size: cover!important;
-  background-position: center!important;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 .btn {
@@ -50,19 +51,19 @@ a.nav-link.active {
 }
 
 .bg-red {
-  background-color: #E17E65!important;
+  background-color: #e17e65 !important;
 }
 
 .bg-gray {
-  background-color: #98A4A5!important;
+  background-color: #98a4a5 !important;
 }
 
 .bg-yellow {
-  background-color: #509CD8!important;
+  background-color: #509cd8 !important;
 }
 
 .bg-b {
-  background-color: #000!important;
+  background-color: #000 !important;
 }
 
 .pic-round {
