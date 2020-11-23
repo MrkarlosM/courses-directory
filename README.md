@@ -20,6 +20,10 @@ This project contains three pages for an Online Course Directory.
 
 ![screenshot](./src/images/a.png)
 
+## Presentation of site
+
+[Video Presentation](https://www.loom.com/share/7204c70e112a46608059f7da299ff327)
+
 ## Live Demo
 
 [Live Demo Link](https://raw.githack.com/MrkarlosM/newsweek-clone/main/index.html)
@@ -28,7 +32,7 @@ This project contains three pages for an Online Course Directory.
 
 - GitHub: [@MrkarlosM](https://github.com/MrkarlosM)
 - Twitter: [@MrkarlosM](@MrkarlosM)
-- LinkedIn: [MrkarlosM](https://www.linkedin.com/in/carlos-mario-martinez-b1768355/)
+- LinkedIn: [Carlos Mario Martinez](https://www.linkedin.com/in/carlos-mario-martinez-b1768355/)
 
 ## 🤝 Contributing
 
