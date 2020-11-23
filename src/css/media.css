@@ -1,50 +1,49 @@
-/*Media Queries*/
+/* Media Queries */
 
-/*Index Page*/
+/* Index Page */
 @media screen and (max-width: 575px) {
-    .search-section {
-      min-height: 40vh!important;
-    }
+  .search-section {
+    min-height: 40vh !important;
+  }
 }
 
 @media screen and (min-width: 576px) {
-    .search-section {
-      min-height: 40vh!important;
-    }
+  .search-section {
+    min-height: 40vh !important;
+  }
 }
 
-
 @media screen and (min-width: 992px) {
-    .search-section {
-      min-height: 40vh!important;
-    }
+  .search-section {
+    min-height: 40vh !important;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .search-section {
-    min-height: 60vh!important;
+    min-height: 60vh !important;
   }
 }
 
-/*Media Search Page*/
+/* Media Search Page */
 
 @media screen and (min-width: 767px) {
+  .card-img-top {
+    max-height: 200px !important;
+  }
 
-    .card-img-top {
-      max-height: 200px!important;
-    }
-
-    .card {
-        max-width: 400px!important;
-    }
+  .card {
+    max-width: 400px !important;
+  }
 }
 
-/*Course Page*/
+/* Course Page */
 @media only screen and (min-device-width: 767px) {
   html.specific-page {
-      font-size: 19px;
+    font-size: 19px;
   }
+
   .card {
-    max-width: none!important;
+    max-width: none !important;
   }
 }

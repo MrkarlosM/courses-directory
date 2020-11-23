@@ -1,11 +1,12 @@
-/*Page Styles*/
+/* Page Styles */
 body {
   max-width: 1440px;
-  margin: auto auto!important;
+  margin: auto auto !important;
 }
 
-.navbar-brand, a.nav-link.active {
-  font-family: 'Poppins', sans-serif!important;
+.navbar-brand,
+a.nav-link.active {
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .search-section {
@@ -15,8 +16,8 @@ body {
 }
 
 .btn {
- padding-top: 0.15rem!important;
- font-size: 20px!important;
+  padding-top: 0.15rem !important;
+  font-size: 20px !important;
 }
 
 .bg-form {
@@ -30,7 +31,7 @@ body {
 }
 
 .form-control:focus {
-  box-shadow: none!important;
+  box-shadow: none !important;
 }
 
 .step-container {
@@ -40,12 +41,14 @@ body {
   justify-content: space-between;
 }
 
-.section1, .section2, .section3 {
+.section1,
+.section2,
+.section3 {
   min-height: 250px;
 }
 
 .pic-round {
-    border-radius: 200px;
+  border-radius: 200px;
 }
 
 .top-footer-options {
@@ -58,25 +61,24 @@ body {
 }
 
 .sub-input {
-  max-width: 320px!important;
+  max-width: 320px !important;
 }
 
-/*Results*/
+/* Results */
 
 .search-result {
-  background-color: rgba(132,132,132,0.33);
+  background-color: rgba(132, 132, 132, 0.33);
 }
 
 .card-img-top {
-  height: 320px!important;
+  height: 320px !important;
 }
 
 .card {
-  height: 100%!important;
+  height: 100% !important;
 }
 
-
-/*Course main*/
+/* Course main */
 
 .instructor-image {
   float: right;
