@@ -23,7 +23,7 @@ This project contains three pages for an Online Course Directory.
 
 ## Presentation of the site
 
-[Video Presentation](https://www.loom.com/share/fbf1bb0bb7ba45a49a09ad50f3c3dd31)
+[Video Presentation](https://www.loom.com/share/aa4fce88278c47779a768f3e03f2292f)
 
 ## Live Demo
 
