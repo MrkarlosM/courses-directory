@@ -2,46 +2,15 @@
 
 /* Index Page */
 
-/* @media screen and (max-width: 575px) {
-  .search-section {
-    min-height: 45vh!important;
-    max-height: 50vh!important;
-  }
-}
-
-@media screen and (min-width: 576px) {
-  .search-section {
-    min-height: 50vh !important;
-  }
-}
-
-@media screen and (min-width: 767px) {
-  .search-section {
-    min-height: 60vh !important;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .search-section {
-    min-height: 80vh !important;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .search-section {
-    min-height: 75vh !important;
-  }
-} */
-
 /* Media Search Page */
 
 @media screen and (min-width: 767px) {
   .card-img-top {
-    max-height: 200px !important;
+    max-height: 200px;
   }
 
   .card {
-    max-width: 400px !important;
+    max-width: 400px;
   }
 }
 
@@ -52,6 +21,6 @@
   }
 
   .card {
-    max-width: none !important;
+    max-width: none;
   }
 }

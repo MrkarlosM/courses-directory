@@ -32,7 +32,7 @@ This project contains three pages for an Online Course Directory.
 👤 **Carlos Martinez**
 
 - GitHub: [@MrkarlosM](https://github.com/MrkarlosM)
-- Twitter: [@MrkarlosM](@MrkarlosM)
+- Twitter: [@MrkarlosM](https://twitter.com/MrkarlosM)
 - LinkedIn: [Carlos Mario Martinez](https://www.linkedin.com/in/carlos-mario-martinez-b1768355/)
 
 ## 🤝 Contributing
