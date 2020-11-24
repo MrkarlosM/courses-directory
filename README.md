@@ -10,6 +10,7 @@ This project contains three pages for an Online Course Directory.
 1. Index page: Showing the main features of the sites.
 2. Search results page: Showing several Online Courses after being searched.
 3. Course page: The course page with the description of the course and other features.
+4. All of them working responsively.
 
 ## Built with
 - [HTML5](https://html.spec.whatwg.org/): For layout.
@@ -20,21 +21,25 @@ This project contains three pages for an Online Course Directory.
 
 ![screenshot](./src/images/a.png)
 
+## Presentation of the site
+
+[Video Presentation](https://www.loom.com/share/aa4fce88278c47779a768f3e03f2292f)
+
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/MrkarlosM/newsweek-clone/main/index.html)
+[Live Demo Link](https://raw.githack.com/MrkarlosM/courses-directory/feature-branch/index.html)
 
 👤 **Carlos Martinez**
 
 - GitHub: [@MrkarlosM](https://github.com/MrkarlosM)
-- Twitter: [@MrkarlosM](@MrkarlosM)
-- LinkedIn: [MrkarlosM](https://www.linkedin.com/in/carlos-mario-martinez-b1768355/)
+- Twitter: [@MrkarlosM](https://twitter.com/MrkarlosM)
+- LinkedIn: [Carlos Mario Martinez](https://www.linkedin.com/in/carlos-mario-martinez-b1768355/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/MrkarlosM/newsweek-clone/issues).
+Feel free to check the [issues page](https://github.com/MrkarlosM/courses-directory/issues).
 
 ## Show your support
 

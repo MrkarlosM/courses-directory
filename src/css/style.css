@@ -1,1 +1,111 @@
+/* Page Styles */
+body {
+  max-width: 1440px;
+}
 
+.navbar-brand,
+a.nav-link.active {
+  font-family: 'Poppins', sans-serif;
+}
+
+.search-section {
+  background-image: url("../images/main.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  padding-top: 0.15rem;
+  font-size: 20px !important;
+}
+
+.bg-form {
+  background-color: rgba(255, 255, 255, 0.25);
+  margin-bottom: 0;
+  border-radius: 5px;
+}
+
+.main-icon {
+  font-size: 36px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+.step-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+  justify-content: space-between;
+}
+
+.section1,
+.section2,
+.section3 {
+  min-height: 250px;
+}
+
+.bg-red,
+.bg-danger {
+  background-color: #d35649;
+}
+
+.bg-gray {
+  background-color: #98a4a5;
+}
+
+.bg-yellow {
+  background-color: #509cd8;
+}
+
+.bg-b {
+  background-color: #000;
+}
+
+.pic-round {
+  border-radius: 200px;
+}
+
+.top-footer-options {
+  display: flex;
+  justify-content: space-around;
+}
+
+.suscribe-icon {
+  font-size: 18px;
+}
+
+.sub-input {
+  max-width: 320px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Results */
+
+.search-result {
+  background-color: rgba(132, 132, 132, 0.33);
+}
+
+.card-img-top {
+  height: 320px;
+}
+
+.card {
+  height: 100%;
+}
+
+/* Course main */
+
+.instructor-image {
+  float: right;
+}
+
+.clearfix {
+  overflow: auto;
+  clear: right;
+}

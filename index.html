@@ -1,23 +1,340 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--Stylesheets-->
+        <!-- Bootstrap CSS -->
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+        crossorigin="anonymous"
+      />
+    <!--Main-->
+    <link rel="stylesheet" href="./src/css/style.css" />
 
-    <title>Hello, world!</title>
+
+
+    <!--Media Queries-->
+    <link rel="stylesheet" href="./src/css/media.css" />
+    <!--Favicon-->
+    <link rel="icon" type="image/ico" href="./src/images/icon.ico" />
+    <!--Font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Lightning Learning</title>
   </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <body class="m-auto">
+    <header class="sticky-top">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-danger d-flex sticky-top"
+      >
+        <a class="navbar-brand text-light" href="#"
+          ><svg
+            width="1em"
+            height="1em"
+            viewBox="0 0 16 16"
+            class="bi bi-lightning"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M11.251.068a.5.5 0 0 1 .227.58L9.677 6.5H13a.5.5 0 0 1 .364.843l-8 8.5a.5.5 0 0 1-.842-.49L6.323 9.5H3a.5.5 0 0 1-.364-.843l8-8.5a.5.5 0 0 1 .615-.09zM4.157 8.5H7a.5.5 0 0 1 .478.647L6.11 13.59l5.732-6.09H9a.5.5 0 0 1-.478-.647L9.89 2.41 4.157 8.5z"
+            /></svg
+          >Lightning Learning</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-flex-lg justify-content-end"
+          id="navbarNavAltMarkup"
+        >
+          <div class="navbar-nav">
+            <a class="nav-link active text-light" href="#">L.L. for Business</a>
+            <a class="nav-link active text-light" href="#">Create a course</a>
+            <a class="nav-link active text-light" href="#">Sign In</a>
+            <a class="nav-link active text-light" href="#">Help</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!--Search Section-->
+      <div
+        class="search-section container-fluid py-5 d-flex flex-column justify-content-center"
+      >
+        <div class="container bg-form">
+          <div class="input-group m-0 p-3">
+            <input
+              type="text"
+              class="form-control rounded-0 border-0 py-0"
+              placeholder="Search for a course"
+            />
+            <div class="input-group-append">
+              <a
+                href="results.html"
+                class="btn btn-outline-secondary rounded-0 btn-light border-0"
+                id="button-addon2"
+              >
+                <i class="fab fa-searchengin"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="text-center text-light font-weight-bold m-2">
+          <h1>Let your interest take you where you want and beyond!</h1>
+        </div>
+        <div class="how text-center">
+          <a href="#" class="how-it-works btn btn-light rounded-0 m-2">
+            How it Works
+          </a>
+        </div>
+      </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+      <!--Steps Section-->
+      <div class="container-fluid py-3">
+        <div class="row">
+          <div class="col-sm text-center my-2">
+            <div class="step-container bg-light rounded p-3">
+              <i class="fas fa-door-open main-icon"></i>
+              <h2 class="font-weight-bold">1-Look for what's best for you</h2>
+              <h4 class="font-weight-light">Look for over +10000 courses of more than 1000 subjects.</h4>
+            </div>
+          </div>
+          <div class="col-sm text-center my-2">
+            <div class="step-container bg-light rounded p-3">
+              <i class="fas fa-book-reader main-icon"></i>
+              <h2 class="font-weight-bold">2-Read about the contents</h2>
+              <h4 class="font-weight-light">
+                Read the syllabus, the pre-requisites, methodology, and
+                available schedules.
+              </h4>
+            </div>
+          </div>
+          <div class="w-100"></div>
+          <div class="col-sm text-center my-2">
+            <div class="step-container bg-light rounded p-3">
+              <i class="fas fa-sign-in-alt main-icon"></i>
+              <h2 class="font-weight-bold">3-Sign up the course</h2>
+              <h4 class="font-weight-light">Fill out the sign-up course form.</h4>
+            </div>
+          </div>
+          <div class="col-sm text-center my-2">
+            <div class="step-container bg-light rounded p-3">
+              <i class="fas fa-chalkboard-teacher main-icon"></i>
+              <h2 class="font-weight-bold">4-Start learning</h2>
+              <h4 class="font-weight-light">Enjoy a new journey into an existing world.</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Advantages-->
+
+      <div class="container-fluid px-0">
+        <div
+          class="adv-section section1 bg-red text-center d-flex flex-column justify-content-center"
+        >
+          <div
+            class="section-content d-flex justify-content-center justify-content-md-between px-5"
+          >
+            <div class="section-text align-self-center p-2 text-md-left">
+              <h2>There is a course for everyone</h2>
+              <p>Just click below to find the right course for you</p>
+              <a class="btn btn-success" href="./results.html" role="button"
+                >Search!</a
+              >
+            </div>
+            <div class="section-pic">
+              <img
+                class="pic-round d-md-block d-none"
+                src="./src/images/sec1.jpg"
+                alt="section-pic"
+                width="200"
+                height="200"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="adv-section section2 bg-gray text-center d-flex flex-column justify-content-center"
+        >
+          <div
+            class="section-content d-flex justify-content-center justify-content-md-between px-5"
+          >
+            <div class="section-text align-self-center p-2 text-md-left">
+              <h2>The right time for you</h2>
+              <p>
+                Select from over 10,000 synchronous and asynchronous courses
+              </p>
+              <button type="button" class="btn btn-success">Sign Up!</button>
+            </div>
+            <div class="section-pic">
+              <img
+                class="pic-round d-md-block d-none"
+                src="./src/images/sec2.jpg"
+                alt="section-pic"
+                width="200"
+                height="200"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="adv-section section3 bg-yellow text-center d-flex flex-column justify-content-center"
+        >
+          <div
+            class="section-content d-flex justify-content-center justify-content-md-between px-5"
+          >
+            <div class="section-text align-self-center p-2 text-md-left">
+              <h2>Apply to submit your own course</h2>
+              <p>
+                Want to share your knowledge to others <br />
+                Click in the next button to apply and submit your own material
+              </p>
+              <button type="button" class="btn btn-success">Apply!</button>
+            </div>
+            <div class="section-pic">
+              <img
+                class="pic-round d-md-block d-none"
+                src="./src/images/sec3.jpg"
+                alt="section-pic"
+                width="200"
+                height="200"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-b">
+      <div class="footer-items text-light">
+        <div class="footer-top">
+          <ul class="top-footer-options m-0 d-flex flex-wrap">
+            <li><a class="nav-link active text-light h5" href="#">HOME</a></li>
+            <li>
+              <a class="nav-link active text-light h5" href="./results.html"
+                >SEARCH</a
+              >
+            </li>
+            <li>
+              <a class="nav-link active text-light h5" href="#">ABOUT US</a>
+            </li>
+            <li><a class="nav-link active text-light h5" href="#">APPLY</a></li>
+            <li>
+              <a class="nav-link active text-light h5" href="#">ESPAÑOL</a>
+            </li>
+            <li>
+              <a class="nav-link active text-light h5" href="#">ITALIANO</a>
+            </li>
+            <li>
+              <a class="nav-link active text-light h5" href="#">日本語</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-mid container-fluid border-top p-3">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="contact-text text-center text-light">
+                <h3>CONTACT</h3>
+                <p>
+                  For more sites like this visit: <br /><span
+                    class="text-danger"
+                    >carlos.mario.m@outlook.com</span
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div
+                class="contact-text d-flex flex-column justifly-content-center text-light"
+              >
+                <div class="suscribe-message text-center">
+                  <h3>SUBSCRIBE</h3>
+                  <p>
+                    Subscribe to our newsletter <br />
+                    here:
+                  </p>
+                </div>
+                <div class="suscribe d-flex container sub-input p-2 w-auto">
+                  <input
+                    type="email"
+                    class="form-control rounded-0 border-0 py-0 h-auto"
+                    placeholder="Email address"
+                  />
+                  <a
+                    class="btn btn-outline-secondary rounded-0 btn-danger border-0"
+                    id="button-addon-subscribe"
+                    ><i class="fas fa-user-plus text-light suscribe-icon"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom bg-secondary mb-0">
+          <ul
+            class="bottom-footer-options d-flex justify-content-center flex-wrap mb-0 p-0"
+          >
+            <li>
+              <a class="nav-link active text-light h5 mb-0" href="#"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link active text-light h5 mb-0" href="#"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link active text-light h5 mb-0" href="#"
+                ><i class="fab fa-google-plus"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
     <!-- Font Awesome script -->
-    <script src="https://kit.fontawesome.com/058dd9bc9b.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/058dd9bc9b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

@@ -1,0 +1,31 @@
+/* Media Queries */
+
+/* Index Page */
+@media screen and (min-width: 992px) {
+  .search-section {
+    min-height: 600px;
+  }
+}
+
+/* Media Search Page */
+
+@media screen and (min-width: 767px) {
+  .card-img-top {
+    max-height: 200px;
+  }
+
+  .card {
+    max-width: 400px;
+  }
+}
+
+/* Course Page */
+@media only screen and (min-device-width: 767px) {
+  html.specific-page {
+    font-size: 19px;
+  }
+
+  .card {
+    max-width: none;
+  }
+}
